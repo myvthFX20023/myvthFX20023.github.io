@@ -1,0 +1,414 @@
+/* General */
+* {
+  margin: 0px;
+}
+body {
+  height: 5000px;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+
+:root {
+  --color-primary: rgb(4, 119, 233);
+}
+/* banner */
+#banner {
+  position: relative;
+  text-align: center;
+}
+.photo-banner {
+  width: 100%;
+  display: block;
+}
+.banner__title {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: large;
+  color: white;
+  transform: translate(-50% -50%);
+  line-height: 35px;
+}
+/* Navigation */
+#nav-bar {
+  text-align: center;
+}
+.link-thong-tin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+.top-link {
+  text-decoration: none;
+  color: black;
+}
+
+.firts {
+  border-left: rgba(130, 130, 130, 0.3) solid 1px;
+}
+.hidden {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 10px white;
+  position: absolute;
+  top: -97px;
+  left: 626px;
+}
+.nav-avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 10px white;
+  position: absolute;
+  top: -100px;
+  left: 650px;
+}
+.nav-avatar {
+  position: relative;
+}
+.top {
+  padding: 20px 40px;
+  border-right: rgba(130, 130, 130, 0.3) solid 1px;
+}
+.icon-user,
+.icon-doc-text-inv,
+.icon-mail-alt,
+.icon-star-1 {
+  color: #199cdb;
+}
+/* About*/
+.personal-info .section-content {
+  display: none;
+}
+
+#error-email {
+  color: red;
+}
+#about {
+  position: relative;
+}
+
+#about .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+}
+
+.personal-info {
+  padding: 50px 0px 30px 50px;
+  background-color: rgb(241, 241, 237);
+}
+
+.target {
+  padding: 50px 20px 30px 50px;
+}
+.mt-40 {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* overall  */
+.section-title {
+  margin-bottom: 30px;
+}
+.title-name {
+  font-weight: bold;
+}
+.time {
+  font-style: italic;
+}
+.list {
+  list-style: " - ";
+  padding-left: 0;
+}
+
+/* CSS grid for job-info */
+.section-content {
+  padding-left: 20px;
+}
+.title {
+  position: relative;
+  font-weight: bold;
+}
+/* Job info */
+#job-info .section-content {
+  display: none;
+}
+
+.view-more .less-more {
+  display: none;
+}
+
+/* exp -bar */
+.exp-bar {
+  width: 50px;
+  height: 4px;
+  background-color: grey;
+  display: inline-block;
+}
+.fill {
+  background-color: var(--color-primary);
+}
+.content-title {
+  margin: 20px 0 20px 20px;
+}
+/* Icon */
+.ic-toolbox,
+.ic-pencil,
+.ic-tools-2,
+.ic-mic,
+.ic-telescope {
+  text-align: center;
+  margin-top: 20px;
+  font-size: xx-large;
+}
+
+.container-title {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  border: 1px grey solid;
+  align-content: start;
+}
+
+.timeline {
+  grid-column: 1/3;
+  align-content: start;
+  margin: 20px;
+}
+
+/* blue botton */
+.button {
+  display: flex;
+}
+.blue-button {
+  background-color: #199cdb;
+  border-radius: 10%;
+  width: 70px;
+  text-align: center;
+}
+/* items rearrangement*/
+.experience {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.education {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.activity {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.hobby {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.skills {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.language {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+/* hobby */
+.hobby .detail {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  gap: 15px;
+  text-align: center;
+  padding-left: 70px;
+}
+.icon {
+  border: 0.5px #199cdb solid;
+  width: 50px;
+  height: 30px;
+  border-radius: 100%;
+  color: #199cdb;
+  text-align: center;
+  font-size: larger;
+  padding-top: 15px;
+}
+
+/* certificates */
+.chung-chi {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 40px;
+  grid-gap: 25px;
+  row-gap: 40px;
+}
+.img-chung-chi {
+  width: 200px;
+  float: left;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.chung-chi_2 {
+  border-left: solid 1px orange;
+  padding-left: 20px;
+}
+.chung-chi_3 {
+  border-top: solid 1px orange;
+  padding-top: 40px;
+  grid-column: 1/-1;
+}
+.lap-trinh-web {
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.conten {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* Projects */
+
+.du-an {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  margin: 20px 0px;
+}
+.project {
+  width: 100%;
+  display: block;
+}
+
+th {
+  width: 30%;
+  text-align: left;
+  vertical-align: text-top;
+}
+table {
+  border-collapse: collapse;
+}
+.noi-dung {
+  border-bottom: rgba(130, 130, 130, 0.3) 1px solid;
+}
+th,
+td {
+  padding: 5px;
+}
+.du-an-moi {
+  border: 1px solid rgba(130, 130, 130, 0.3);
+  margin-bottom: 40px;
+}
+.tieu-de,
+.funix,
+.mota {
+  border-bottom: rgba(130, 130, 130, 0.3) 1px solid;
+  padding: 10px;
+}
+.tieu-de {
+  border-top: rgba(130, 130, 130, 0.3) 1px solid;
+}
+.title-project {
+  margin-bottom: 0rem;
+}
+/* footer */
+.footer-icon {
+  font-size: 30px;
+  color: #199cdb;
+}
+.container-footer {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 150px 150px 150px;
+  gap: 10px;
+  padding: 35px;
+}
+.footer-item {
+  display: flex;
+  align-items: center;
+}
+
+/* Digtal CV */
+@media screen and (min-width: 1024px) {
+  .box {
+    width: 300px;
+    height: 60px;
+  }
+}
+.goals {
+  border-top: solid blue 10px;
+  border-bottom: solid blue 10px;
+  border-left: solid blue 10px;
+  height: 600px;
+}
+.scopes {
+  border-top: solid blue 10px;
+  padding: 10px;
+}
+.primary {
+  border-right: solid blue 10px;
+  padding: 10px;
+}
+.row {
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0;
+}
+ol > li {
+  list-style-type: decimal-leading-zero;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.muc-tieu {
+  height: 300px;
+  padding: 10px;
+}
+h5 {
+  border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+  color: blue;
+}
+.member {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  margin-bottom: 15px;
+  gap: 5px;
+}
+.goal {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+  margin-bottom: 20px;
+}
+.question-icon {
+  height: 25px;
+}
+.uu-tien {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+.in-scopes {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+}
+.digitalcv {
+  background-color: rgb(181, 211, 224, 0.3);
+}

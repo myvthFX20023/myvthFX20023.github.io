@@ -1,0 +1,10 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Banner  */
+  .nav-avatar {
+    display: none;
+  }
+  .banner__title {
+    top: 35%;
+    left: 35%;
+  }
+}

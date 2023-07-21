@@ -1,0 +1,64 @@
+@media screen and (max-width: 576px) {
+  /* Banner */
+  .nav-avatar {
+    display: none;
+  }
+  .banner__title {
+    top: 25%;
+    left: 25%;
+  }
+  /* Nav-bar */
+  .link-thong-tin {
+    display: block;
+    font-weight: 500;
+    text-align: left;
+  }
+  .box {
+    display: none;
+  }
+  .top {
+    padding: 10px 30px;
+    border-right: none;
+  }
+
+  /* Target */
+  .personal-info,
+  .target {
+    padding: 40px 20px;
+    margin-bottom: 0px;
+  }
+
+  /* certificate */
+  .chung-chi {
+    display: block;
+  }
+  .img-chung-chi {
+    width: 100%;
+  }
+  .chung-chi_1,
+  .chung-chi_2,
+  .chung-chi_3 {
+    padding: 20px 0px;
+  }
+  .lap-trinh-web {
+    float: none;
+  }
+  .chung-chi_2 {
+    border-left: none;
+    border-top: 1px solid orange;
+  }
+
+  /* Project */
+  .du-an {
+    display: block;
+  }
+
+  /* Footer */
+  .icon-name {
+    display: none;
+  }
+  .container-footer {
+    display: flex;
+    grid-template-columns: center;
+  }
+}
